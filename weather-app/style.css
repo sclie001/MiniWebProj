@@ -19,3 +19,7 @@ body{
     background-color: var(--clr-secondary-200);
     height: 100vh;
 }
+
+.main-container{
+    background-color: var(--clr-neutral-100);
+}
