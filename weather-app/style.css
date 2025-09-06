@@ -43,4 +43,5 @@ body{
     padding: 0.625rem;
     background-color: var(--clr-primary-500);
     border: none;
+    color: var(--clr-neutral-100);
 }
