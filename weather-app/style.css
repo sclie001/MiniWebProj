@@ -42,4 +42,5 @@ body{
 .search-container > button{
     padding: 0.625rem;
     background-color: var(--clr-primary-500);
+    border: none;
 }
