@@ -11,5 +11,9 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--clr-secondary-200);
+    height: 100vh;
 }
