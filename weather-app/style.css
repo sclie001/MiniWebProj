@@ -25,6 +25,7 @@ body{
     background-color: var(--clr-neutral-100);
 
     padding: 1.875rem;
+    border-radius: .625rem;
     
     text-align: center;
 
