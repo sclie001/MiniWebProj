@@ -1,5 +1,6 @@
 :root{
     /*colors*/
+    --clr-primary-500: hsl(211, 100%, 50%);
     --clr-secondary-200: hsl(0, 0%, 95%);
 }
 
