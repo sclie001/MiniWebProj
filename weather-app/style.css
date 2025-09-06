@@ -38,3 +38,7 @@ body{
     width: 75%;
     padding: .625rem;
 }
+
+.search-container > button{
+    padding: 0.625rem;
+}
