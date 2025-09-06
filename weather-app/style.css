@@ -1,4 +1,9 @@
-/*resets*/
+:root{
+    /*colors*/
+    --clr-secondary-200: hsl(0, 0%, 95%);
+}
+
+/*remove default margin and padding*/
 * {
     margin: 0;
     padding: 0;
