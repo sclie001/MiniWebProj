@@ -23,4 +23,6 @@ body{
 .main-container{
     flex: 0 0 70%;
     background-color: var(--clr-neutral-100);
+
+    padding: 1.875em;
 }
