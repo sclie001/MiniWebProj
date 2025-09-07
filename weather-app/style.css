@@ -6,8 +6,11 @@
     --clr-secondary-200: hsl(0, 0%, 90%);
 
     --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --clr-secondary-darken: color-mix(in srgb, var(--clr-secondary-200), black 13%);
+
     /*font family*/
-    --ff-sans-normal: "Roboto", sans-serif;
+    --ff-sans-normal: "Roboto", sans-serif;    
 }
 
 /*remove default margin and padding*/
@@ -43,12 +46,6 @@ body{
 .search-container__input-field{
     width: 75%;
     padding: .625rem;
-}
-
-.search-container > button{
-    padding: 0.625rem;
-    background-color: var(--clr-primary-500);
-    border: none;
-    color: var(--clr-neutral-100);
-    border-radius: 0.3125rem;
+    border-radius: .3125rem;
+    border: 1px solid var(--clr-secondary-darken);
 }
