@@ -4,6 +4,8 @@
     --clr-secondary-200: hsl(0, 0%, 90%);
 
     --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --clr-secondary-darken: color-mix(in srgb, var(--clr-secondary-200), black 10%);
 }
 
 /*remove default margin and padding*/
@@ -37,4 +39,5 @@ body{
 .search-container__input-field{
     width: 75%;
     padding: .625rem;
+    border: 1px solid var(--clr-secondary-darken);
 }
