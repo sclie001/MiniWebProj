@@ -57,3 +57,8 @@ body{
     color: var(--clr-neutral-100);
     border-radius: 0.3125rem;
 }
+
+.weather-container{
+    display: grid;
+    gap: 0.875rem;
+}
