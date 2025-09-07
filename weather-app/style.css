@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root{
     /*colors*/
     --clr-primary-500: hsl(211, 100%, 50%);
     --clr-secondary-200: hsl(0, 0%, 90%);
 
     --clr-neutral-100: hsl(0, 0%, 100%);
+    /*font family*/
+    --ff-sans-normal: "Roboto", sans-serif;
 }
 
 /*remove default margin and padding*/
@@ -18,4 +22,6 @@ body{
     align-items: center;
     background-color: var(--clr-secondary-200);
     height: 100vh;
+    
+    font-family: var(--ff-sans-normal);
 }
