@@ -6,6 +6,9 @@ function validateForm(){
     if(city == "" || city.length == 1){
         errorMessage("Please, enter a city name");
     }
+    else{
+        getCoordinates(city);
+    }
 }
 
 /**
