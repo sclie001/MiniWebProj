@@ -68,4 +68,5 @@ body{
 .weather-container__error-message{
     color: red;
     font-weight: bold;
+    font-size: large;
 }
