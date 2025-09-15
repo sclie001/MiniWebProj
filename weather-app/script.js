@@ -7,7 +7,7 @@ const searchBtn = document.getElementById('searchBtn');
 function validateForm(){
     const city = document.forms['citySearch']['city'].value;
 
-    if(city == "" || city.length == 1){
+    if(city == "" || city.length == 1 || Number(city)){
         errorMessage("Please, enter a city name");
     }
     else{
