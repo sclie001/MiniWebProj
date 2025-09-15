@@ -58,14 +58,3 @@ body{
     border-radius: 0.3125rem;
     cursor: pointer;
 }
-
-.weather-container{
-    /* display: grid;
-    gap: 0.875rem; */
-    display: none; /*hide until data is available*/
-}
-
-.weather-container__error-message{
-    color: red;
-    font-weight: bold;
-}
