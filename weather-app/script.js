@@ -8,5 +8,16 @@ function validateForm(){
     }
 }
 
+/**
+ * Display error message
+ * @param message: error message to display
+ */
+function errorMessage(message){
+    const weatherContainer = document.getElementById('weatherContainer');
+    weatherContainer.style.display = "block";
+
+    const errorMessage = document.getElementById('errorMessage');
+    errorMessage.textContent = message;
+}
 
 searchBtn.addEventListener('click', validateForm);
