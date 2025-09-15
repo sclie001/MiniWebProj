@@ -59,6 +59,7 @@ body{
 }
 
 .weather-container{
-    display: grid;
-    gap: 0.875rem;
+    /* display: grid;
+    gap: 0.875rem; */
+    display: none; /*hide until data is available*/
 }
