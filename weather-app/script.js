@@ -1,5 +1,9 @@
 const searchBtn = document.getElementById('searchBtn');
 
+
+/**
+ * validate a city is entered by user
+ */
 function validateForm(){
     const city = document.forms['citySearch']['city'].value;
 
